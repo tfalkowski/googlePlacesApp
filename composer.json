@@ -1,0 +1,26 @@
+{
+    "name": "STD Rest API v1 and GUI",
+    "authors": [
+        {
+            "name": "Tomasz Falkowski"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "slim/slim": "^3.1",
+        "slim/php-view": "^2.0",
+        "monolog/monolog": "^1.17",
+        "skagarwal/google-places-api": "^10.4",
+        "slim/http-cache": "^0.3.0",
+        "tuupola/slim-basic-auth": "^2.0"
+    },
+    "require-dev": {
+      "crysalead/kahlan": "2.5.4"
+    },
+    "autoload": {
+      "psr-4": {
+        "controllers\\": "src/controllers",
+        "kahlan\\": "tests/kahlan"
+      }
+  }
+}
