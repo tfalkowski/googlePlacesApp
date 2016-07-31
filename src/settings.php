@@ -11,7 +11,7 @@ return [
             'path' => __DIR__ . '/../logs/app.log',
         ],
         'googlePlaces' => [
-            'apiKey' => 'AIzaSyDu18O3TK4FQgZzlJJgg47tHz3mmxkLQFs'
+            'apiKey' => 'API_KEY'
         ],
         'auth' => [
             'login' => 'user',
