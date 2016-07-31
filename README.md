@@ -34,7 +34,7 @@ It displays 'Rest API v1!' information.
 
 ## Available methods
 
-Method "/bars"
+**Method "/bars"**
 
     GET: /bars
 
@@ -44,7 +44,7 @@ Example
 
     http://localhost:8000/api/v1/bars
 
-Method "bars/latitude/longitude"
+**Method "bars/latitude/longitude"**
 
     GET: /bars/latitude/longitude
 
