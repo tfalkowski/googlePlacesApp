@@ -4,12 +4,12 @@ Application is based on Slim Framework 3 Skeleton Application which is very easy
 ## Installation
 If you have installed Composer globally then in project directory run:
 
-    composer install
+    $ composer install
 
 ## Usage
 For PHP built-in server, in project directory run:
 
-    php -S localhost:8000 -t public public/index.php
+    $ php -S localhost:8000 -t public public/index.php
 
 ### GUI
 To run GUI go to:
@@ -56,7 +56,7 @@ Example
 Rest API and also GUI are covered by Kahlan tests.
 To execute tests in project directory run:
 
-    tests/kahlan.sh
+    $ tests/kahlan.sh
 
 ## Reguirements
 
