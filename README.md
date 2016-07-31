@@ -6,6 +6,15 @@ If you have installed Composer globally then in project directory run:
 
     $ composer install
 
+Set up Google API Server key in settings file:
+
+    /src/settings.php
+    
+API Server key has to have enabled following Apis:
+ * Google Places API Web Service
+ * Google Maps JavaScript API
+ * Google Maps Geolocation API
+
 ## Usage
 For PHP built-in server, in project directory run:
 
