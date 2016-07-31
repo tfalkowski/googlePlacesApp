@@ -35,17 +35,21 @@ It displays 'Rest API v1!' information.
 ## Available methods
 
 Method
+
     GET: /bars
 
 Returns bars in Gdańsk located within 2 km radius around Neptun Fountain
 
 Example
+
     http://localhost:8000/api/v1/bars
 
 Method
+
     GET: /bars/latitude/longitude
 
 Example
+
     http://localhost:8000/api/v1/bars/54.34853/18.65324
 
 ## Tests
